@@ -1491,7 +1491,7 @@ section > div.container{
   opacity: 0;
   border-radius: 4px;
   transition: 0.5s;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.956);
   z-index: 2;
 }
 
@@ -1505,11 +1505,11 @@ section > div.container{
 }
 
 .team .member .social a:hover {
-  color: rgba(1, 41, 112, 0.8);
+  color: rgba(1, 42, 112, 0.962);
 }
 
 .team .member .social i {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .team .member .member-info {
@@ -1545,7 +1545,7 @@ section > div.container{
 
 .team .member:hover .social {
   right: 8px;
-  opacity: 1;
+  opacity: 2;
 }
 
 /*--------------------------------------------------------------
