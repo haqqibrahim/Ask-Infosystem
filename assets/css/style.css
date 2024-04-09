@@ -481,9 +481,29 @@ section {
 
 }
 
-section > div.container{
+/* section > div.container{
+  margin-top: 300px;
+} */
+
+/* Default margin top */
+section > div.container {
   margin-top: 150px;
 }
+
+/* Media query for laptop */
+@media (min-width: 1024px) {
+  section > div.container {
+    margin-top: 300px;
+  }
+}
+
+/* Media query for phone and tablet */
+@media (max-width: 1023px) {
+  section > div.container {
+    margin-top: 135px;
+  }
+}
+
 
 .hero h1 {
   margin: 0;
